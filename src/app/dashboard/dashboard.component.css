@@ -1,0 +1,81 @@
+#contentContainer {
+  flex-grow: 1;
+}
+
+#contentContainer #content {
+  padding: 20px;
+}
+
+#header {
+  display: flex;
+  width: 100%;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#header #menu {
+  display: flex;
+  gap: 20px;
+}
+
+/* Style for the logo */
+#logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Style for the dashboard container */
+#dashboard-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9; /* Set the background color */
+}
+
+/* Style for the dashboard header */
+#dashboard-header {
+  text-align: center;
+  padding: 10px 0;
+}
+
+#dashboard-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#dashboard-container th {
+  background-color: #f2f2f2;
+  padding: 12px;
+  text-align: left;
+}
+
+#dashboard-container tr {
+  border-bottom: 1px solid #ddd;
+}
+#dashboard-container td {
+  padding: 12px;
+}
+
+#dashboard-container td:first-child {
+  font-weight: bold;
+}
+
+#dashboard-container tr:hover {
+  background-color: #e0e0e0;
+}
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #45a049;
+}

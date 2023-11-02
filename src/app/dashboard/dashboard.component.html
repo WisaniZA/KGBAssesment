@@ -1,0 +1,36 @@
+<div id="contentContainer">
+    <div id="header">
+        <div id="logo">KGB</div>
+        <div>
+          <a href="/admin">Home</a>
+        </div>
+    </div>
+</div>
+  
+
+  <div id="dashboard-container">
+    <div id="dashboard-header">
+      <h2>Dashboard</h2>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Debtor ID</th>
+          <th>Debtor Name</th>
+          <th>Balance</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let debt of debts">
+          <td>{{ debt.id }}</td>
+          <td>{{ debt.debtor }}</td>
+          <td>{{ debt.balance }}</td>
+          <td>
+            <a href="/payment">Pay</a>
+        </td>
+        </tr>
+      </tbody>
+    </table>
+   </div>
+  
+  

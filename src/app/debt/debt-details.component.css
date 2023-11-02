@@ -1,0 +1,64 @@
+
+content {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: blue; /* Set the background color */
+  }
+  
+  /* Style for the debt details table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Style for table header */
+  th {
+    background-color: #f2f2f2;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  /* Style for table rows */
+  tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Style for table data cells */
+  td {
+    padding: 12px;
+  }
+  
+  /* Style for table data cells in the first column (Date) */
+  td:first-child {
+    font-weight: bold;
+  }
+  
+  /* Style for table rows on hover */
+  tr:hover {
+    background-color: #e0e0e0;
+  }
+  #contentContainer {
+    flex-grow: 1;
+}
+
+#contentContainer #content {
+    padding: 20px;
+}
+
+#header {
+    display: flex;
+    width: 100%;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#header #menu {
+    display: flex;
+    gap: 20px;
+}
+  
